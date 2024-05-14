@@ -1,0 +1,14 @@
+#include <iostream> 
+int main()
+{
+  double kg ; 
+    std::cout << "vazne arezoohat(kg) ?";
+
+    
+    std::cin >> kg ;
+    double g ; 
+    g = kg * 1000 ; 
+        std::cout << g;
+
+    
+}
